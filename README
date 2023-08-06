@@ -1,0 +1,8 @@
+# Transformers
+
+## Setup
+```
+conda env create -f conda.yaml
+conda activate transformers-env
+transformers-env/Scripts/Activate
+```
