@@ -1,10 +1,19 @@
+⚠️ Still under development
+
 # Transformers
 
-In this repository, I try to implement the original Transformer model from the paper [Attention is All You Need](https://arxiv.org/abs/1706.03762) in PyTorch.
+In this repository, I implement the original Transformer model from the paper [Attention is All You Need](https://arxiv.org/abs/1706.03762) in PyTorch.
 
+**TODO**
 
+- [X] Self Attention 
+- [X] Multi-head attention
+- [X] Positional encoding
+- [X] Layer Normalization
+- [ ] Encoder
+- [ ] Decoder
 
-## Reference
+## References
 
 - [Attention is All You Need](https://arxiv.org/abs/1706.03762)
 - [Self Attention in Transformer Neural Networks (with Code!)](https://www.youtube.com/watch?v=QCJQG4DuHT0&list=PLTl9hO2Oobd97qfWC40gOSU8C0iu0m2l4&index=1) by CodeEmporium on YouTube
