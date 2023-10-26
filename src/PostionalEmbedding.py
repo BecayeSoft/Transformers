@@ -12,9 +12,9 @@ class PositionalEmbedding(nn.Module):
     def forward(self):
         # Initalize the even and odd embeddings
         even_i = torch.arange(0, self.embedding_dim).float()
-        odd_i = torch.arange(0, self.embedding_dim)
+        # odd_i = torch.arange(0, self.embedding_dim)
 
-        # Compute the denominator (same for both)
+        # Compute the denominator (same for odd and even)
         denominator = torch.pow(10000, (even_i-1/self.embedding_dim))
 
         # Initalize the position tensor
